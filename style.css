@@ -1,0 +1,129 @@
+/* 全体(デスクトップPCとスマホ)に適用するCSS */
+.header
+{
+	color: #ffffff ;
+	border-top: 3px solid #888 ;		/* 枠線 */
+	text-align: center ;				/* テキスト、画像の真ん中寄せ */
+	background: #1d2088 ;
+	font-size:10px ;
+	width: 1000px ;
+	margin: 0 auto ;	/* 左右に[auto]を指定することで、真ん中に寄る */
+	padding: 0 ;		/* 上下左右の余白を0にしておく */
+	
+}
+
+.wrapper
+{
+	font-size: 14px;
+	width: 1000px ;
+	margin: 0 auto ;	/* 左右に[auto]を指定することで、真ん中に寄る */
+	padding: 0 ;		/* 上下左右の余白を0にしておく */
+	overflow: hidden ;		/* floatを解除する */
+	background: #eeeeee ;
+	background-attachment: fixed; 
+	background-image: url(./夜景.jpg); 
+}
+
+.main
+{
+	width: 618px ;
+	padding: 0px 20px ;							/* 上下左右に20pxの余白 */
+	margin: 0 ;
+	border: 1px solid rgba(0,0,0,.1) ;		/* 枠線 */
+	float:right ;		/* 右に寄せる */
+	background: #ffffff ;
+}
+
+
+.main h2
+{	color: #ffffff ;
+	background: #1d2088 ;
+	margin: 0 ;
+	font-size:20px ;
+}
+.main h3
+{	color: #ffffff ;
+	background: #6785c1 ;
+	margin: 0 ;
+	font-size:16px ;
+
+}
+
+.side
+{
+	color: #000000 ;
+	width: 320px ;
+	float: left ;		/* 左に寄せる */
+	background: #ffffff ;
+	padding: 1px;
+	margin: 0 ;
+}
+
+.side h2
+{
+	color: #ffffff ;
+	width: 320px ;
+	background: #1d2088 ;
+	padding: 1px;
+	font-size:20px ;
+	margin: 0 ;
+
+}
+
+
+/* スマホだけに適用するCSS */
+@media screen and ( max-width:479px )
+{
+	.header
+	{
+		width: auto ;
+		padding: 0 10px ;		/* 左右の余白 */
+	}
+}
+
+{
+	.wrapper
+	{
+		width: auto ;
+		padding: 0 10px ;		/* 左右の余白 */
+	}
+}
+
+
+
+{
+	.main
+	{
+		width: auto ;
+		padding: 0 ;		/* 余白 */
+		border: none ;		/* 枠線 */
+		float: none ;		/* floatを無効する */
+
+	}
+
+	.side
+	{
+		width: auto ;
+		float: none ;		/* floatを無効する */
+
+	}
+}
+
+
+
+/* 画像の最大幅を指定する */
+img
+{
+	max-width: 60% ;		/* 横幅の90% */
+	height: auto ;			/* 縦幅を自動調整 */
+}
+
+/* フッター */
+.footer
+{
+	border-top: 3px solid #888 ;		/* 枠線 */
+	text-align: center ;				/* テキスト、画像の真ん中寄せ */
+	margin-top: 2em ;					/* 他のブロックとのスペース */
+	padding: 1em 0 ;					/* 上下の余白 */
+	background: #e8e8e8 ;
+}
