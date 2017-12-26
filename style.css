@@ -84,7 +84,7 @@
 {
 	.wrapper
 	{
-		width: 750px ;
+		width: auto ;
 		padding: 0 10px ;		/* 左右の余白 */
 	}
 }
