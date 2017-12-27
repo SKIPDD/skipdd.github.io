@@ -86,14 +86,14 @@
 
 	.main
 	{
-		width: 240px ;
+		width: auto ;
 		padding: 0 ;		/* 余白 */
 		border: 3px solid #888 ;		/* 枠線 */
 		float: none ;		/* floatを無効する */
 	}
 	.side
 	{
-		width: 240px ;
+		width: auto ;
 		float: none ;		/* floatを無効する */
 	}
 
