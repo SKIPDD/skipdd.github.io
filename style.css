@@ -72,9 +72,9 @@
 
 
 /* スマホだけに適用するCSS */
-@media screen and ( max-width:748px )
+@media screen and (max-width:748px)
 {
 	.header
 	{	width: 748px ;
-		padding: 0 10px ;		/* 左右の余白 */
-	}}
+		padding: 0 10px ;}
+}
