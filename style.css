@@ -77,41 +77,4 @@
 	.header
 	{	width: 748px ;
 		padding: 0 10px ;		/* 左右の余白 */
-	}
-	.wrapper
-	{
-		width: 748px ;
-		padding: 0 10px ;		/* 左右の余白 */
-	}
-
-	.main
-	{
-		color: #ff0000 ;
-		width: auto ;
-		padding: 0 ;		/* 余白 */
-		border: 3px solid #888 ;		/* 枠線 */
-		float: none ;		/* floatを無効する */
-	}
-	.side
-	{
-		width: auto ;
-		float: none ;		/* floatを無効する */
-	}
-}
-
-/* 画像の最大幅を指定する */
-img
-{
-	max-width: 90% ;		/* 横幅の90% */
-	height: auto ;			/* 縦幅を自動調整 */
-}
-
-/* フッター */
-.footer
-{	width: 748px ;
-	border-top: 3px solid #888 ;		/* 枠線 */
-	text-align: center ;				/* テキスト、画像の真ん中寄せ */
-	margin-top: 2em ;					/* 他のブロックとのスペース */
-	padding: 1em 0 ;					/* 上下の余白 */
-	background: #e8e8e8 ;
-}
+	}}
