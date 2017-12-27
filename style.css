@@ -94,7 +94,6 @@
 {
 	.main
 	{
-		width: auto ;
 		padding: 0 ;		/* 余白 */
 		border: none ;		/* 枠線 */
 		float: none ;		/* floatを無効する */
@@ -103,11 +102,10 @@
 
 	.side
 	{
-		width: auto ;
 		float: none ;		/* floatを無効する */
 
 	}
-}
+	}
 
 
 
@@ -121,6 +119,7 @@ img
 /* フッター */
 .footer
 {
+	width: 748px ;
 	border-top: 3px solid #888 ;		/* 枠線 */
 	text-align: center ;				/* テキスト、画像の真ん中寄せ */
 	margin-top: 2em ;					/* 他のブロックとのスペース */
