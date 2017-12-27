@@ -84,8 +84,6 @@
 		padding: 0 10px ;		/* 左右の余白 */
 	}
 
-
-{
 	.main
 	{
 		width: 240px ;
@@ -98,7 +96,6 @@
 		width: 240px ;
 		float: none ;		/* floatを無効する */
 	}
-		}
 
 
 /* 画像の最大幅を指定する */
