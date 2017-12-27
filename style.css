@@ -73,7 +73,7 @@
 
 /* スマホだけに適用するCSS */
 @media screen and ( max-width:748px )
-
+{
 	.header
 	{	width: 748px ;
 		padding: 0 10px ;		/* 左右の余白 */
@@ -97,7 +97,7 @@
 		width: auto ;
 		float: none ;		/* floatを無効する */
 	}
-
+}
 
 /* 画像の最大幅を指定する */
 img
