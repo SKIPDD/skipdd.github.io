@@ -107,7 +107,7 @@ img
 
 /* フッター */
 .footer
-{
+{	width: 748px ;
 	border-top: 3px solid #888 ;		/* 枠線 */
 	text-align: center ;				/* テキスト、画像の真ん中寄せ */
 	margin-top: 2em ;					/* 他のブロックとのスペース */
