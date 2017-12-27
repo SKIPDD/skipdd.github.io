@@ -94,8 +94,9 @@
 {
 	.main
 	{
+		width: 240px ;
 		padding: 0 ;		/* 余白 */
-		border: none ;		/* 枠線 */
+		border: 3px solid #888 ;		/* 枠線 */
 		float: none ;		/* floatを無効する */
 
 	}
