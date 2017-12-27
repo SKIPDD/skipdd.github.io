@@ -78,4 +78,10 @@
 	.header
 	{	width: 748px ;
 		padding: 0 10px ;}
+.main h2
+{	color: #000000 ;
+	background: #ffffff ;
+	margin: 0 ;
+	font-size:20px ;
+}
 }
