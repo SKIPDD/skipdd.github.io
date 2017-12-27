@@ -86,6 +86,7 @@
 
 	.main
 	{
+		color: #ff0000 ;
 		width: auto ;
 		padding: 0 ;		/* 余白 */
 		border: 3px solid #888 ;		/* 枠線 */
