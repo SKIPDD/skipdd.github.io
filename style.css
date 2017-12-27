@@ -72,23 +72,18 @@
 
 
 /* スマホだけに適用するCSS */
-@media screen and ( max-width:800px )
+@media screen and ( max-width:750px )
 {
 	.header
 	{	width: 748px ;
 		padding: 0 10px ;		/* 左右の余白 */
 	}
-}
-
-{
 	.wrapper
 	{
 		width: 748px ;
 		padding: 0 10px ;		/* 左右の余白 */
 	}
 }
-
-
 
 {
 	.main
@@ -97,16 +92,13 @@
 		padding: 0 ;		/* 余白 */
 		border: 3px solid #888 ;		/* 枠線 */
 		float: none ;		/* floatを無効する */
-
 	}
-
 	.side
 	{
 		width: 240px ;
 		float: none ;		/* floatを無効する */
 	}
-	}
-
+		}
 
 
 /* 画像の最大幅を指定する */
