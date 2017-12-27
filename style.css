@@ -72,7 +72,7 @@
 
 
 /* スマホだけに適用するCSS */
-@media screen and ( max-width:748px )
+@media screen and ( max-width:750px )
 {
 	.header
 	{
