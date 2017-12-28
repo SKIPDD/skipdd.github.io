@@ -50,8 +50,7 @@
 }
 
 .side
-{
-	color: #000000 ;
+	{color: #000000 ;
 	width: 320px ;
 	float: left ;		/* 左に寄せる */
 	background: #ffffff ;
@@ -60,36 +59,33 @@
 }
 
 .side h2
-{
-	color: #ffffff ;
+{	color: #ffffff ;
 	width: 320px ;
 	background: #1d2088 ;
 	padding: 1px;
 	font-size:20px ;
 	margin: 0 ;
+	}
 
-}
-/* フッター */
 .footer
-{
-	border-top: 3px solid #888 ;		/* 枠線 */
-	text-align: center ;				/* テキスト、画像の真ん中寄せ */
-	margin-top: 2em ;					/* 他のブロックとのスペース */
-	padding: 1em 0 ;					/* 上下の余白 */
+	{border-top: 3px solid #888 ;
+	text-align: center ;
+	margin-top: 2em ;
+	padding: 1em 0 ;
 	background: #e8e8e8 ;
-}
+	}
 
 /* スマホだけに適用するCSS */
 @media screen and (max-width: 750px)
-
 {
-	.header
-	{	width: 748px ;
-		padding: 0 10px ;}
+.header
+	{width: 748px ;
+	padding: 0 10px ;
+	}
 .main h2
-{	color: #000000 ;
+	{color: #000000 ;
 	background: #ffffff ;
 	margin: 0 ;
 	font-size:20px ;
-}
+	}
 }
