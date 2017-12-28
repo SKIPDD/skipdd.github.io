@@ -69,7 +69,15 @@
 	margin: 0 ;
 
 }
-
+/* フッター */
+.footer
+{
+	border-top: 3px solid #888 ;		/* 枠線 */
+	text-align: center ;				/* テキスト、画像の真ん中寄せ */
+	margin-top: 2em ;					/* 他のブロックとのスペース */
+	padding: 1em 0 ;					/* 上下の余白 */
+	background: #e8e8e8 ;
+}
 
 /* スマホだけに適用するCSS */
 @media screen and (max-width: 750px)
